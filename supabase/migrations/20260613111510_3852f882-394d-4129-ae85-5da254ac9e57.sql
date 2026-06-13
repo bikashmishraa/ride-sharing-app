@@ -1,0 +1,1 @@
+ALTER TABLE public.trips ADD COLUMN IF NOT EXISTS rating int, ADD COLUMN IF NOT EXISTS complaint text;
